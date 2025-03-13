@@ -1,0 +1,1473 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f131027f-631c-4099-b0ec-5f883860005f")
+	(paper "A4")
+	(title_block
+		(title "Root schematic")
+		(date "2025-01-10")
+		(rev "1.0")
+		(company "Patryk Dudziński")
+	)
+	(lib_symbols
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 161.29 69.85) (xy 152.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "027e383a-476b-475a-b9b3-306ef6bc6df4")
+	)
+	(wire
+		(pts
+			(xy 130.81 124.46) (xy 161.29 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0746b414-8ce3-4a67-952c-3d78d38fb289")
+	)
+	(wire
+		(pts
+			(xy 149.86 77.47) (xy 161.29 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a2700ac-f9d0-44a4-8829-87a60ffbcbe9")
+	)
+	(wire
+		(pts
+			(xy 198.12 46.99) (xy 209.55 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11fa086a-272f-4206-a0e1-d5ce8d1aa7ed")
+	)
+	(wire
+		(pts
+			(xy 130.81 109.22) (xy 161.29 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f732da4-e995-4ffe-9e9f-3069d957b6d2")
+	)
+	(wire
+		(pts
+			(xy 207.01 105.41) (xy 207.01 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "200636d5-cefe-4d51-b8ae-31364eefb005")
+	)
+	(wire
+		(pts
+			(xy 199.39 120.65) (xy 215.9 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3813f5cc-4fc0-491a-92d0-45d4e08e9d5d")
+	)
+	(wire
+		(pts
+			(xy 152.4 69.85) (xy 152.4 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "386a543e-d236-43ee-926b-1e157b3e1e0e")
+	)
+	(wire
+		(pts
+			(xy 161.29 67.31) (xy 154.94 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fe0e0d8-7a88-47d6-bcdd-be1187068d10")
+	)
+	(wire
+		(pts
+			(xy 130.81 106.68) (xy 161.29 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "467c784b-0066-47c6-a09a-3cd0340caa9e")
+	)
+	(wire
+		(pts
+			(xy 199.39 105.41) (xy 207.01 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b554a0e-1a97-47d4-a40a-34e1a790f594")
+	)
+	(wire
+		(pts
+			(xy 115.57 125.73) (xy 115.57 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e10a56a-2038-41b6-8b87-91d690a38350")
+	)
+	(wire
+		(pts
+			(xy 199.39 107.95) (xy 209.55 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "573d8c6c-ccdc-422c-8816-682139486f78")
+	)
+	(wire
+		(pts
+			(xy 130.81 104.14) (xy 161.29 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584ca2e3-76e5-4844-8fb1-3971b501721f")
+	)
+	(wire
+		(pts
+			(xy 139.7 129.54) (xy 139.7 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c45a96-e35c-4481-8bd5-49d6952ae920")
+	)
+	(wire
+		(pts
+			(xy 130.81 116.84) (xy 161.29 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df82484-91d2-4416-a0f6-de997ce7b9b3")
+	)
+	(wire
+		(pts
+			(xy 198.12 36.83) (xy 213.36 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f369714-7f1a-47b5-a05f-02c8ef5f1695")
+	)
+	(wire
+		(pts
+			(xy 154.94 50.8) (xy 161.29 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7126b5db-4c68-4984-9daf-ee3262783354")
+	)
+	(wire
+		(pts
+			(xy 149.86 80.01) (xy 161.29 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "728eb16f-8773-4af9-885c-d94b680bf7f5")
+	)
+	(wire
+		(pts
+			(xy 198.12 34.29) (xy 215.9 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b991eb-8e23-418c-8f8c-8fe51aaa3e8a")
+	)
+	(wire
+		(pts
+			(xy 161.29 64.77) (xy 157.48 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "769e0927-3d61-41fa-8541-83e60343f698")
+	)
+	(wire
+		(pts
+			(xy 115.57 129.54) (xy 139.7 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e1d97fd-b1ad-44d1-bd5d-8693da2ab450")
+	)
+	(wire
+		(pts
+			(xy 130.81 111.76) (xy 161.29 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d7e2f7-abd1-4db5-bdb3-e3fb2c7f9441")
+	)
+	(wire
+		(pts
+			(xy 157.48 64.77) (xy 157.48 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d215b95-cfd5-4334-8ab3-876cfede936d")
+	)
+	(wire
+		(pts
+			(xy 130.81 77.47) (xy 142.24 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "953faafa-4999-4843-bde7-968fb9b73e58")
+	)
+	(wire
+		(pts
+			(xy 152.4 48.26) (xy 161.29 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f844dd-8ce4-49e6-a208-f57bdd529d07")
+	)
+	(wire
+		(pts
+			(xy 209.55 107.95) (xy 209.55 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4493659-47e5-4a31-b73e-13e78952db71")
+	)
+	(wire
+		(pts
+			(xy 198.12 49.53) (xy 207.01 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98eebfb-a933-4ade-96f5-3ed5a48843a9")
+	)
+	(wire
+		(pts
+			(xy 130.81 121.92) (xy 161.29 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf422c2-5669-4b80-a74c-1f67a11c4ded")
+	)
+	(wire
+		(pts
+			(xy 213.36 118.11) (xy 213.36 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b32d0d36-1ce9-44bd-ad9b-5a677d2f500e")
+	)
+	(wire
+		(pts
+			(xy 157.48 53.34) (xy 161.29 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6de62f2-985e-4bcc-af7b-4765072f3a3a")
+	)
+	(wire
+		(pts
+			(xy 199.39 118.11) (xy 213.36 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b725f9d1-73c2-429d-9861-cdbd194dfde9")
+	)
+	(wire
+		(pts
+			(xy 154.94 50.8) (xy 154.94 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc7f3aa9-ba47-4e17-b69c-092ad88854a1")
+	)
+	(wire
+		(pts
+			(xy 215.9 120.65) (xy 215.9 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4f31b66-f42b-4ed6-b211-1ecf6b006c76")
+	)
+	(wire
+		(pts
+			(xy 130.81 74.93) (xy 142.24 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d995b04b-b69a-44e7-9191-cd583fca16af")
+	)
+	(wire
+		(pts
+			(xy 149.86 74.93) (xy 161.29 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba0b5ba-dd47-43a7-a289-5fbf0a49cb6a")
+	)
+	(wire
+		(pts
+			(xy 130.81 41.91) (xy 161.29 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e35caabe-2176-4d1b-b178-8de90afc4d84")
+	)
+	(wire
+		(pts
+			(xy 130.81 80.01) (xy 142.24 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec411ca-df53-45a6-9e5e-0d40c3175e68")
+	)
+	(wire
+		(pts
+			(xy 130.81 44.45) (xy 161.29 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b4993c-6e50-425b-be6c-f3febb7f9af6")
+	)
+	(wire
+		(pts
+			(xy 130.81 119.38) (xy 161.29 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0ce86b-2938-45dd-a443-f05b41460ee6")
+	)
+	(text "<-------\n"
+		(exclude_from_sim no)
+		(at 83.058 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "432de57f-a83e-4fc7-a8e9-f058a3da52ec")
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 146.05 80.01 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "439fd045-738c-4b30-b02d-4f2aef39b577")
+		(property "Reference" "JP3"
+			(at 143.256 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 146.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 146.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 146.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4309e338-1811-4ab4-a8e0-86c0b070285e")
+		)
+		(pin "1"
+			(uuid "45246c61-cff0-4648-ae35-a639af188f28")
+		)
+		(instances
+			(project "mini_module_template"
+				(path "/f131027f-631c-4099-b0ec-5f883860005f"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 146.05 77.47 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "662b91c0-4451-47f3-a13a-04280ad53870")
+		(property "Reference" "JP2"
+			(at 143.002 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 146.05 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 146.05 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 146.05 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "82bdf862-079e-4cba-a30a-a3c625d889f0")
+		)
+		(pin "1"
+			(uuid "bc4e3cba-21a5-4dc1-b80b-bda0329bc611")
+		)
+		(instances
+			(project "mini_module_template"
+				(path "/f131027f-631c-4099-b0ec-5f883860005f"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 146.05 74.93 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "702ca7a9-664f-4443-aa70-354a037aedc6")
+		(property "Reference" "JP1"
+			(at 143.002 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 146.05 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 146.05 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 146.05 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91d65b58-8ac7-4f10-abf4-88665c1c07d2")
+		)
+		(pin "1"
+			(uuid "40d69763-25a4-4abf-ad24-10dadff30022")
+		)
+		(instances
+			(project ""
+				(path "/f131027f-631c-4099-b0ec-5f883860005f"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 31.75)
+		(size 36.83 25.4)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3f507c93-6fc7-484f-a0c5-ddbbb0186fda")
+		(property "Sheetname" "USB"
+			(at 161.29 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 168.656 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_MCU_D-" bidirectional
+			(at 161.29 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7fce8cb6-fdce-41a4-b298-ea5a927a81c2")
+		)
+		(pin "USB_MCU_D+" bidirectional
+			(at 161.29 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a9f45db1-b7ab-4b6d-9e2c-5d087cefdcee")
+		)
+		(pin "USB_STLINK_D+" input
+			(at 161.29 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e4abfc7b-b780-461d-8a0a-919b748af83a")
+		)
+		(pin "USB_STLINK_D-" bidirectional
+			(at 161.29 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7ba91065-0607-4263-8a3b-2ecb609fe241")
+		)
+		(pin "USB_RENUM" input
+			(at 161.29 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4d956f78-26c3-41be-ad29-6d9e0a5dc839")
+		)
+		(pin "USB_SWITCH_D-" bidirectional
+			(at 198.12 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5755bdf9-34f6-4caf-aec8-45e0a809685d")
+		)
+		(pin "USB_SWITCH_D+" input
+			(at 198.12 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3f00877a-71e4-4d27-b719-d79c13197525")
+		)
+		(pin "USB_DOWNSTREM_D-" bidirectional
+			(at 198.12 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "63df4bd9-ea7f-489f-860f-2a9785a59ecb")
+		)
+		(pin "USB_DOWNSTREM_D+" input
+			(at 198.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9331eb09-c213-4899-b4d5-273c885ef3bc")
+		)
+		(instances
+			(project "mini_module_template"
+				(path "/f131027f-631c-4099-b0ec-5f883860005f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 135.89)
+		(size 36.83 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5cf7175d-66ee-4e96-8394-507d81ab0700")
+		(property "Sheetname" "POWER"
+			(at 128.27 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 128.27 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_SENSE" output
+			(at 139.7 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6c44d549-7e4b-409b-9f65-617fd7da26a8")
+		)
+		(instances
+			(project "mini_module_template"
+				(path "/f131027f-631c-4099-b0ec-5f883860005f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 33.02)
+		(size 36.83 92.71)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a4b9441c-60f3-49e8-82a9-f2ebbfa51587")
+		(property "Sheetname" "MCU"
+			(at 93.98 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 93.98 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SWCLK" input
+			(at 130.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e00ce6b6-d06c-4985-ac95-25f95cb39ced")
+		)
+		(pin "SWDIO" input
+			(at 130.81 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "61fd426f-b456-495c-9f4a-47044dd7974d")
+		)
+		(pin "USB_D+" input
+			(at 130.81 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "36892855-48d4-445c-8a74-baa0d95c5594")
+		)
+		(pin "USB_D-" input
+			(at 130.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3165b2a2-76a5-4a64-89d7-a174a4d9f207")
+		)
+		(pin "V_SENSE" output
+			(at 115.57 125.73 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "471d02a0-7192-4c4c-9924-26ce9688c62c")
+		)
+		(pin "NRST" input
+			(at 130.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cc339d35-669a-49b2-be0e-00b06abc35ad")
+		)
+		(pin "TXD1_LED" input
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "43042f2f-d1b5-4d11-8fa4-fae1b37d38c7")
+		)
+		(pin "RXD1_LED" input
+			(at 130.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1f13ba03-4c95-4c9a-a8d9-56169f8a0883")
+		)
+		(pin "CAN2_RXD" output
+			(at 130.81 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "00fe8f29-ce2d-4b79-9b2c-bfc0daa833e1")
+		)
+		(pin "CAN1_RXD" output
+			(at 130.81 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bbd1da62-ac16-48fc-a2c8-3d7c5f904b65")
+		)
+		(pin "CAN1_TXD" input
+			(at 130.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "29208eca-bf2c-48a6-b1a5-2336b00b087d")
+		)
+		(pin "CAN2_TXD" input
+			(at 130.81 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "88e31866-f9c2-4c74-83ee-9d54a7e20fa0")
+		)
+		(pin "TXD2_LED" input
+			(at 130.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7fa15c8e-e9d5-45fc-8cdb-ad371d66917d")
+		)
+		(pin "RXD2_LED" input
+			(at 130.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1f231edd-bb58-4a90-bd85-2094ab295e0c")
+		)
+		(instances
+			(project "mini_module_template"
+				(path "/f131027f-631c-4099-b0ec-5f883860005f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 100.33)
+		(size 38.1 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b8e003cd-8e51-43da-b232-db813e307d77")
+		(property "Sheetname" "CAN"
+			(at 161.29 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can.kicad_sch"
+			(at 161.29 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_DOWNSTREAM_D+" input
+			(at 199.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8c6f6f16-527b-4496-8a7b-9f5e28cd4eec")
+		)
+		(pin "USB_DOWNSTREAM_D-" input
+			(at 199.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6594b5de-d16c-4fec-b567-d38308eb39bf")
+		)
+		(pin "CAN1_TXD" input
+			(at 161.29 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d4279e85-6570-4692-aa73-cb07f2d9b8bf")
+		)
+		(pin "CAN1_RXD" output
+			(at 161.29 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d79e71d2-cd9a-4c13-ad43-2e6cdd16536f")
+		)
+		(pin "USB_UPSTREAM_D-" input
+			(at 199.39 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bfc46f37-3fdc-485c-8b6f-737adbcc364e")
+		)
+		(pin "USB_UPSTREAM_D+" input
+			(at 199.39 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a3d77f8d-3429-4651-96cb-2101244a25a1")
+		)
+		(pin "RXD2_LED" input
+			(at 161.29 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c9a9722a-ce87-491a-afa4-0aad7a6ee792")
+		)
+		(pin "TXD2_LED" input
+			(at 161.29 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "89a37937-e81e-4654-be4b-3c20db7e81e0")
+		)
+		(pin "RXD1_LED" input
+			(at 161.29 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0e26073e-c20c-4581-b165-9de3c64de72b")
+		)
+		(pin "TXD1_LED" input
+			(at 161.29 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3e5ea78b-3fc2-4915-802e-db6a9321013f")
+		)
+		(pin "CAN2_RXD" output
+			(at 161.29 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8f884223-cafc-47b0-a501-4e426ec7d8b2")
+		)
+		(pin "CAN2_TXD" input
+			(at 161.29 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ed5939fc-ce9d-4658-b1b6-21060108985d")
+		)
+		(instances
+			(project "mini_module_template"
+				(path "/f131027f-631c-4099-b0ec-5f883860005f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 53.34)
+		(size 34.29 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d1498b8b-28bc-4a0b-baaf-4147e51e0fe8")
+		(property "Sheetname" "user-schematic"
+			(at 39.37 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "user-schematic.kicad_sch"
+			(at 39.37 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mini_module_template"
+				(path "/f131027f-631c-4099-b0ec-5f883860005f"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 60.96)
+		(size 27.94 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f8d1eb31-148a-4007-97b5-8e2a7921be41")
+		(property "Sheetname" "STLINK"
+			(at 161.29 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STLINK.kicad_sch"
+			(at 161.29 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SWCLK" output
+			(at 161.29 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0ab41e43-d32d-4607-831d-cc5d134ef412")
+		)
+		(pin "SWDIO" output
+			(at 161.29 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "42458c95-a58b-4ccd-a328-764781b6d80b")
+		)
+		(pin "NRST" output
+			(at 161.29 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bc3583c0-e55b-4528-ab09-73c76f22f40d")
+		)
+		(pin "USB_D-" input
+			(at 161.29 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4776f986-0945-4230-8d01-aab2fbf19a8f")
+		)
+		(pin "USB_RENUM" input
+			(at 161.29 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "115fdb1b-2c16-4d06-8d53-f70767e30d8e")
+		)
+		(pin "USB_D+" input
+			(at 161.29 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6febb9a3-cbeb-4f0d-8799-d237a187a1e8")
+		)
+		(instances
+			(project "mini_module_template"
+				(path "/f131027f-631c-4099-b0ec-5f883860005f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
