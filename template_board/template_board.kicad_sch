@@ -938,7 +938,7 @@
 			(uuid "9331eb09-c213-4899-b4d5-273c885ef3bc")
 		)
 		(instances
-			(project "mini_module_template"
+			(project "template_board"
 				(path "/f131027f-631c-4099-b0ec-5f883860005f"
 					(page "5")
 				)
@@ -986,7 +986,7 @@
 			(uuid "6c44d549-7e4b-409b-9f65-617fd7da26a8")
 		)
 		(instances
-			(project "mini_module_template"
+			(project "template_board"
 				(path "/f131027f-631c-4099-b0ec-5f883860005f"
 					(page "4")
 				)
@@ -1164,7 +1164,7 @@
 			(uuid "1f231edd-bb58-4a90-bd85-2094ab295e0c")
 		)
 		(instances
-			(project "mini_module_template"
+			(project "template_board"
 				(path "/f131027f-631c-4099-b0ec-5f883860005f"
 					(page "2")
 				)
@@ -1322,7 +1322,7 @@
 			(uuid "ed5939fc-ce9d-4658-b1b6-21060108985d")
 		)
 		(instances
-			(project "mini_module_template"
+			(project "template_board"
 				(path "/f131027f-631c-4099-b0ec-5f883860005f"
 					(page "6")
 				)
@@ -1360,7 +1360,7 @@
 			)
 		)
 		(instances
-			(project "mini_module_template"
+			(project "template_board"
 				(path "/f131027f-631c-4099-b0ec-5f883860005f"
 					(page "7")
 				)
@@ -1458,7 +1458,7 @@
 			(uuid "6febb9a3-cbeb-4f0d-8799-d237a187a1e8")
 		)
 		(instances
-			(project "mini_module_template"
+			(project "template_board"
 				(path "/f131027f-631c-4099-b0ec-5f883860005f"
 					(page "3")
 				)
