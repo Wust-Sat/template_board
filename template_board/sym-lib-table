@@ -1,6 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "TJA1044GTK_3Z")(type "KiCad")(uri "${KIPRJMOD}/../parts/TJA1044GTK_3Z.kicad_sym")(options "")(descr ""))
-  (lib (name "DSUB_7w2")(type "KiCad")(uri "${KIPRJMOD}/../parts/DSUB_7w2.kicad_sym")(options "")(descr ""))
-  (lib (name "LMR16030SDDAR")(type "KiCad")(uri "${KIPRJMOD}/../parts/LMR16030SDDAR.kicad_sym")(options "")(descr ""))
+  (lib (name "PTHF-130-02-G-Q-368")(type "KiCad")(uri "${KIPRJMOD}/../lib/PTHF-130-02-G-Q-368.kicad_sym")(options "")(descr ""))
 )

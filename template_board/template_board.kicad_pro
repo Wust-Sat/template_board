@@ -491,6 +491,57 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.3,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.3,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "CAN_120_DIFF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(13, 49, 255)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.3,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.3,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 3, 30)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.3,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.3,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB_90_DIFF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(74, 255, 64)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -498,7 +549,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB_90_DIFF",
+        "pattern": "*.D*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "*+*V*"
+      },
+      {
+        "netclass": "CAN_120_DIFF",
+        "pattern": "*CAN*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -623,24 +687,28 @@
       "MCU"
     ],
     [
-      "f8d1eb31-148a-4007-97b5-8e2a7921be41",
-      "STLINK"
-    ],
-    [
       "5cf7175d-66ee-4e96-8394-507d81ab0700",
       "POWER"
     ],
     [
-      "3f507c93-6fc7-484f-a0c5-ddbbb0186fda",
-      "USB"
+      "1c738dc6-4a0b-4558-a5f4-493eae4e40e8",
+      "BUS_CONNECTOR"
     ],
     [
-      "b8e003cd-8e51-43da-b232-db813e307d77",
-      "CAN"
+      "42f4cf98-2124-4f40-8bb2-840fa07582d8",
+      "can_tranciver"
     ],
     [
-      "d1498b8b-28bc-4a0b-baaf-4147e51e0fe8",
-      "user-schematic"
+      "b75d80d3-c6b8-4292-b0b3-3c9bb06836c3",
+      "ST-LINK"
+    ],
+    [
+      "4ebeb73d-8c0a-47f8-8c0d-180bfde5f48f",
+      "USB-C"
+    ],
+    [
+      "f4310bec-78a9-4717-aefb-0836051e4c2e",
+      "USB_HUB"
     ]
   ],
   "text_variables": {}

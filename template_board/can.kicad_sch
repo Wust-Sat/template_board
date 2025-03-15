@@ -1574,7 +1574,6 @@
 	)
 	(label "CAN1+"
 		(at 252.73 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1585,7 +1584,6 @@
 	)
 	(label "CAN2-"
 		(at 95.25 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1596,7 +1594,6 @@
 	)
 	(label "CAN2+"
 		(at 226.06 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1607,7 +1604,6 @@
 	)
 	(label "CAN1-"
 		(at 226.06 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1618,7 +1614,6 @@
 	)
 	(label "CAN2+"
 		(at 95.25 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1629,7 +1624,6 @@
 	)
 	(label "CAN1-"
 		(at 194.31 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1640,7 +1634,6 @@
 	)
 	(label "CAN1+"
 		(at 194.31 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1651,7 +1644,6 @@
 	)
 	(label "CAN2-"
 		(at 252.73 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1663,7 +1655,6 @@
 	(hierarchical_label "CAN2_RXD"
 		(shape output)
 		(at 53.34 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1675,7 +1666,6 @@
 	(hierarchical_label "CAN2_TXD"
 		(shape input)
 		(at 53.34 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1687,7 +1677,6 @@
 	(hierarchical_label "CAN1_RXD"
 		(shape output)
 		(at 152.4 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1699,7 +1688,6 @@
 	(hierarchical_label "CAN1_TXD"
 		(shape input)
 		(at 152.4 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
