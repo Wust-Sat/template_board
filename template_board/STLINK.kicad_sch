@@ -3883,6 +3883,7 @@
 	)
 	(label "TARGET_TX"
 		(at 134.62 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3893,6 +3894,7 @@
 	)
 	(label "LED"
 		(at 254 111.76 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3903,6 +3905,7 @@
 	)
 	(label "LED"
 		(at 134.62 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3913,6 +3916,7 @@
 	)
 	(label "CLK"
 		(at 259.08 45.72 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3923,6 +3927,7 @@
 	)
 	(label "CLK"
 		(at 134.62 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3933,6 +3938,7 @@
 	)
 	(label "USB_RENUM"
 		(at 218.44 40.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3943,6 +3949,7 @@
 	)
 	(label "DIO"
 		(at 134.62 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3953,6 +3960,7 @@
 	)
 	(label "BOOT"
 		(at 25.4 43.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3963,6 +3971,7 @@
 	)
 	(label "DIO"
 		(at 257.81 41.91 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3973,6 +3982,7 @@
 	)
 	(label "BOOT"
 		(at 257.81 38.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3983,6 +3993,7 @@
 	)
 	(label "USB_RENUM"
 		(at 134.62 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3993,6 +4004,7 @@
 	)
 	(label "SWO"
 		(at 134.62 91.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4003,6 +4015,7 @@
 	)
 	(label "TARGET_RX"
 		(at 134.62 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4014,6 +4027,7 @@
 	(hierarchical_label "SWDIO"
 		(shape output)
 		(at 78.74 101.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4025,6 +4039,7 @@
 	(hierarchical_label "USB_D+"
 		(shape input)
 		(at 134.62 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4036,6 +4051,7 @@
 	(hierarchical_label "SWCLK"
 		(shape input)
 		(at 134.62 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4047,6 +4063,7 @@
 	(hierarchical_label "NRST"
 		(shape output)
 		(at 93.98 66.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4058,6 +4075,7 @@
 	(hierarchical_label "USB_D-"
 		(shape input)
 		(at 134.62 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4069,6 +4087,7 @@
 	(hierarchical_label "SWCLK"
 		(shape output)
 		(at 78.74 99.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4080,6 +4099,7 @@
 	(hierarchical_label "USB_D+"
 		(shape input)
 		(at 195.58 63.5 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
