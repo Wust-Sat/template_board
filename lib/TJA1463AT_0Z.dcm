@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TJA1463AT_0Z
+D CAN Interface IC CAN SIC transceiver with Sleep mode
+K
+F https://www.arrow.com/en/products/tja1463at0z/nxp-semiconductors?region=nac
+$ENDCMP
+#
+#End Doc Library
