@@ -1316,7 +1316,7 @@
 		(uuid "0a97adf2-f9c1-4ae7-9e7d-b4da2a36d8ed")
 	)
 	(bus_entry
-		(at 194.31 106.68)
+		(at 176.53 106.68)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -1325,7 +1325,7 @@
 		(uuid "7540103f-c4a4-4c83-bd50-591e78850b44")
 	)
 	(bus_entry
-		(at 191.77 101.6)
+		(at 173.99 101.6)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1394,7 +1394,7 @@
 	)
 	(bus
 		(pts
-			(xy 194.31 111.76) (xy 195.58 113.03)
+			(xy 176.53 111.76) (xy 177.8 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1414,6 +1414,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 114.3) (xy 133.35 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a245eaf-73f2-4319-a4a6-624d0e3441fe")
+	)
+	(wire
+		(pts
 			(xy 110.49 76.2) (xy 113.03 76.2)
 		)
 		(stroke
@@ -1421,16 +1431,6 @@
 			(type default)
 		)
 		(uuid "3b7fb5c5-0129-463f-b5f4-4de2654b7045")
-	)
-	(wire
-		(pts
-			(xy 123.19 114.3) (xy 133.35 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4878fe99-63d1-467f-8bde-62050cab1b7f")
 	)
 	(wire
 		(pts
@@ -1454,7 +1454,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 99.06) (xy 170.18 99.06)
+			(xy 161.29 99.06) (xy 193.04 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1474,7 +1474,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 114.3) (xy 170.18 114.3)
+			(xy 161.29 114.3) (xy 193.04 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1504,7 +1504,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 101.6) (xy 120.65 81.28)
+			(xy 128.27 101.6) (xy 128.27 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1564,7 +1564,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 104.14) (xy 191.77 104.14)
+			(xy 161.29 104.14) (xy 173.99 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1574,7 +1574,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 81.28) (xy 132.08 81.28)
+			(xy 128.27 81.28) (xy 132.08 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1594,7 +1594,7 @@
 	)
 	(bus
 		(pts
-			(xy 194.31 106.68) (xy 194.31 111.76)
+			(xy 176.53 106.68) (xy 176.53 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1644,7 +1644,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 101.6) (xy 120.65 101.6)
+			(xy 133.35 101.6) (xy 128.27 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1684,7 +1684,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 101.6) (xy 191.77 101.6)
+			(xy 161.29 101.6) (xy 173.99 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1724,7 +1724,7 @@
 	)
 	(bus
 		(pts
-			(xy 194.31 104.14) (xy 194.31 106.68)
+			(xy 176.53 104.14) (xy 176.53 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1744,7 +1744,7 @@
 	)
 	(bus
 		(pts
-			(xy 195.58 113.03) (xy 198.12 113.03)
+			(xy 177.8 113.03) (xy 180.34 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1809,7 +1809,7 @@
 		(uuid "114c6371-4a97-4c22-9567-8b6ef7c17c15")
 	)
 	(label "CAN.-"
-		(at 189.23 104.14 180)
+		(at 171.45 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1829,7 +1829,7 @@
 		(uuid "2b3bfe0e-4bb2-43fe-809b-759d4e937568")
 	)
 	(label "CAN.+"
-		(at 189.23 101.6 180)
+		(at 171.45 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1858,6 +1858,17 @@
 		)
 		(uuid "c5723b92-c00c-49f9-9fa2-b9c236a72522")
 	)
+	(hierarchical_label "POWER_EN"
+		(shape output)
+		(at 113.03 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0cff8fa6-c239-42d6-878a-d3f9abf91bc0")
+	)
 	(hierarchical_label "CAN{RX TX}"
 		(shape bidirectional)
 		(at 92.71 113.03 180)
@@ -1871,7 +1882,7 @@
 	)
 	(hierarchical_label "CAN{CAN}"
 		(shape bidirectional)
-		(at 198.12 113.03 0)
+		(at 180.34 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
