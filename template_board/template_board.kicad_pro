@@ -477,10 +477,10 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.3,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.3,
+        "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -488,30 +488,30 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
+        "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.3,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.12,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.3,
+        "diff_pair_width": 0.12,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "CAN_120_DIFF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(13, 49, 255)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
+        "track_width": 0.12,
+        "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.3,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.3,
@@ -521,24 +521,24 @@
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 3, 30)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.3,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.3,
+        "diff_pair_width": 0.18,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB_90_DIFF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(74, 255, 64)",
-        "track_width": 0.2,
+        "track_width": 0.15,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -561,6 +561,10 @@
       {
         "netclass": "CAN_120_DIFF",
         "pattern": "*CAN*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "GND"
       }
     ]
   },
