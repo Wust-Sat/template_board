@@ -3092,10 +3092,12 @@
 	)
 	(text "USB HUB TO MCU AND STLINK"
 		(exclude_from_sim no)
-		(at 153.416 55.88 0)
+		(at 151.384 49.276 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
 			)
 		)
 		(uuid "32169a5d-b007-4478-9e1c-190d5a8353f4")
