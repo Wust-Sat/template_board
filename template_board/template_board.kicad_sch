@@ -132,6 +132,16 @@
 	)
 	(bus
 		(pts
+			(xy 166.37 52.07) (xy 187.96 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51b381c9-ef90-4297-ba42-bfce64f93fbf")
+	)
+	(bus
+		(pts
 			(xy 171.45 69.85) (xy 166.37 69.85)
 		)
 		(stroke
@@ -142,7 +152,7 @@
 	)
 	(bus
 		(pts
-			(xy 127 53.34) (xy 129.54 53.34)
+			(xy 127 52.07) (xy 129.54 52.07)
 		)
 		(stroke
 			(width 0)
@@ -152,7 +162,7 @@
 	)
 	(bus
 		(pts
-			(xy 166.37 53.34) (xy 187.96 53.34)
+			(xy 166.37 49.53) (xy 187.96 49.53)
 		)
 		(stroke
 			(width 0)
@@ -182,7 +192,7 @@
 	)
 	(bus
 		(pts
-			(xy 127 67.31) (xy 127 53.34)
+			(xy 127 67.31) (xy 127 52.07)
 		)
 		(stroke
 			(width 0)
@@ -273,7 +283,7 @@
 	)
 	(text_box "REMBER \nTO \nPICK \nCORRECT \nUSB \nFOR \nTHE BOARD"
 		(exclude_from_sim no)
-		(at 45.085 95.25 0)
+		(at 45.085 94.615 0)
 		(size 30.48 30.48)
 		(stroke
 			(width 0)
@@ -724,16 +734,6 @@
 			)
 			(uuid "73ac92c6-8f2c-41ae-af2c-41ada6bf16a4")
 		)
-		(pin "SWD{SWD}" input
-			(at 187.96 53.34 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7e46ee67-4692-4b3c-b301-dc50503db2f9")
-		)
 		(pin "USB_MCU{USB}" input
 			(at 187.96 66.04 180)
 			(effects
@@ -754,6 +754,26 @@
 			)
 			(uuid "e7e970cf-3263-42ca-86ac-9b03677df522")
 		)
+		(pin "STLINK_UART{UART}" bidirectional
+			(at 187.96 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "79f733a9-9c4a-41eb-ad20-4337904094e1")
+		)
+		(pin "SWD{SWD}" input
+			(at 187.96 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "22393510-23af-4f5f-bdab-c9a59ee0fecf")
+		)
 		(instances
 			(project "template_board"
 				(path "/f131027f-631c-4099-b0ec-5f883860005f"
@@ -763,8 +783,8 @@
 		)
 	)
 	(sheet
-		(at 129.54 49.53)
-		(size 36.83 7.62)
+		(at 129.54 46.99)
+		(size 36.83 10.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -775,7 +795,7 @@
 		)
 		(uuid "b75d80d3-c6b8-4292-b0b3-3c9bb06836c3")
 		(property "Sheetname" "ST-LINK"
-			(at 129.54 48.8184 0)
+			(at 129.54 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -792,25 +812,35 @@
 				(justify left top)
 			)
 		)
-		(pin "ST-LINK{USB}" input
-			(at 129.54 53.34 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1fd570d3-e391-4cda-a6cc-e97073338fed")
-		)
-		(pin "SWD{SWD}" output
-			(at 166.37 53.34 0)
+		(pin "STLINK_UART{UART}" bidirectional
+			(at 166.37 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "97aae7f3-21d7-4678-a1b2-3f5edcaf7c2b")
+			(uuid "e605fdad-54d3-4eb2-91b5-1f33cc384a42")
+		)
+		(pin "SWD{SWD}" output
+			(at 166.37 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a8277f51-a979-4302-bb01-ca0357cc1bd2")
+		)
+		(pin "ST-LINK{USB}" input
+			(at 129.54 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d0d6d03c-841e-45f5-beb0-dcb949ffa552")
 		)
 		(instances
 			(project "template_board"
