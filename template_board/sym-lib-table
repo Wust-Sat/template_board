@@ -3,4 +3,5 @@
   (lib (name "PTHF-130-02-G-Q-368")(type "KiCad")(uri "${KIPRJMOD}/../lib/PTHF-130-02-G-Q-368.kicad_sym")(options "")(descr ""))
   (lib (name "TJA1463AT_0Z")(type "KiCad")(uri "${KIPRJMOD}/../lib/TJA1463AT_0Z.kicad_sym")(options "")(descr ""))
   (lib (name "TS-1088R-02026")(type "KiCad")(uri "${KIPRJMOD}/../lib/TS-1088R-02026.kicad_sym")(options "")(descr ""))
+  (lib (name "ESQ-126-14-G-D")(type "KiCad")(uri "${KIPRJMOD}/../lib/ESQ-126-14-G-D.kicad_sym")(options "")(descr ""))
 )

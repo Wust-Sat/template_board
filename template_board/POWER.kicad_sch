@@ -9,7 +9,6 @@
 		(date "2025-01-10")
 		(rev "1.0")
 		(company "Patryk Dudziński")
-		(comment 1 "Referenced on desing from Artem Horiunov, Dominik Pluta")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -2743,6 +2742,16 @@
 		)
 		(uuid "00545732-d364-4206-8c47-5a574e1cc49d")
 	)
+	(polyline
+		(pts
+			(xy 43.18 85.09) (xy 45.085 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f750d7-ff69-4755-94b1-e1a5a6e48295")
+	)
 	(wire
 		(pts
 			(xy 114.3 53.34) (xy 118.11 53.34)
@@ -2762,6 +2771,26 @@
 			(type default)
 		)
 		(uuid "098faefb-6569-4367-bbbf-635a5a2cb92a")
+	)
+	(polyline
+		(pts
+			(xy 44.45 73.66) (xy 53.975 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d87f7d2-c265-4574-b885-bd4baa4e690c")
+	)
+	(polyline
+		(pts
+			(xy 43.18 63.5) (xy 43.18 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5cf10e-b28d-42be-a468-708ce67f47bc")
 	)
 	(wire
 		(pts
@@ -2813,6 +2842,16 @@
 		)
 		(uuid "1e72321a-8384-4f62-b366-7409bd8b640e")
 	)
+	(polyline
+		(pts
+			(xy 66.04 73.66) (xy 73.025 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23178328-4af6-4b2f-b6ff-fd1e3d552350")
+	)
 	(wire
 		(pts
 			(xy 118.11 53.34) (xy 137.16 53.34)
@@ -2823,6 +2862,16 @@
 		)
 		(uuid "23367aca-459e-4bb0-a8c5-663663b8db96")
 	)
+	(polyline
+		(pts
+			(xy 42.545 68.58) (xy 53.975 68.58)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "261d3e49-e1e9-465f-a7ad-0376a41054f3")
+	)
 	(wire
 		(pts
 			(xy 93.98 128.27) (xy 93.98 130.81)
@@ -2832,6 +2881,16 @@
 			(type default)
 		)
 		(uuid "2b9ec954-0090-4d1b-9dbb-c563a755a2aa")
+	)
+	(polyline
+		(pts
+			(xy 53.975 68.58) (xy 66.04 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c82264b-a0c8-4158-b54b-215e7e6a1e89")
 	)
 	(wire
 		(pts
@@ -2862,6 +2921,26 @@
 			(type default)
 		)
 		(uuid "3fe7dee0-75c3-4049-9fe1-bccceb7b7ada")
+	)
+	(polyline
+		(pts
+			(xy 53.34 78.105) (xy 65.405 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43390e9c-ee0b-4aea-be3b-0bf63e8d0e5d")
+	)
+	(polyline
+		(pts
+			(xy 65.405 85.09) (xy 73.025 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ccd4a3-b713-4eb4-ab7c-aac22e885e8e")
 	)
 	(wire
 		(pts
@@ -2902,6 +2981,16 @@
 			(type default)
 		)
 		(uuid "4d343300-f2b2-47ea-a262-cf45860bca19")
+	)
+	(polyline
+		(pts
+			(xy 65.405 78.105) (xy 65.405 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "507c16f0-a063-4bef-80cc-c4d855a6b4b8")
 	)
 	(wire
 		(pts
@@ -2983,6 +3072,16 @@
 		)
 		(uuid "75032807-4538-4e7a-84ac-516937332baf")
 	)
+	(polyline
+		(pts
+			(xy 53.975 73.66) (xy 53.975 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad074ff-8b57-43d5-ad15-e14b9557bac6")
+	)
 	(wire
 		(pts
 			(xy 137.16 53.34) (xy 139.7 53.34)
@@ -3002,6 +3101,16 @@
 			(type default)
 		)
 		(uuid "854e1d40-b5bc-4dfc-9988-4b5039ec7da3")
+	)
+	(polyline
+		(pts
+			(xy 53.34 64.135) (xy 53.34 78.105)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "872bad13-dac2-47de-8ca5-5f74e86f68f6")
 	)
 	(wire
 		(pts
@@ -3053,6 +3162,26 @@
 		)
 		(uuid "9ecdd8af-89c0-45f1-816b-d5d96e1bb382")
 	)
+	(polyline
+		(pts
+			(xy 43.18 63.5) (xy 43.815 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a388eb23-1074-4162-98ed-898a51199876")
+	)
+	(polyline
+		(pts
+			(xy 38.735 75.565) (xy 73.66 75.565)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "a82e46b5-dbbd-4c86-96ff-71a4eb0f66fc")
+	)
 	(wire
 		(pts
 			(xy 171.45 127) (xy 177.8 127)
@@ -3062,6 +3191,26 @@
 			(type default)
 		)
 		(uuid "aca51000-caff-4818-9ac5-dc3507aef429")
+	)
+	(polyline
+		(pts
+			(xy 66.04 68.58) (xy 66.04 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acad55d7-078c-4ba1-9492-dc7454c16a1f")
+	)
+	(polyline
+		(pts
+			(xy 43.18 73.66) (xy 44.45 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf2b0c0-c40a-4313-aa31-94b305aebf94")
 	)
 	(wire
 		(pts
@@ -3133,6 +3282,16 @@
 		)
 		(uuid "c246b28a-5ea2-4634-9ada-8a53909e53c5")
 	)
+	(polyline
+		(pts
+			(xy 43.18 85.725) (xy 74.93 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3539bb8-29eb-424d-b351-c5b91a58c265")
+	)
 	(wire
 		(pts
 			(xy 118.11 78.74) (xy 132.08 78.74)
@@ -3143,6 +3302,16 @@
 		)
 		(uuid "c89b649c-7c97-40de-b944-349617df5a0f")
 	)
+	(polyline
+		(pts
+			(xy 53.34 85.09) (xy 53.34 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd039848-d18a-4e69-95ac-5de7e91ecd8d")
+	)
 	(wire
 		(pts
 			(xy 132.08 127) (xy 132.08 133.35)
@@ -3152,6 +3321,26 @@
 			(type default)
 		)
 		(uuid "cd97aec7-c086-4e02-9b89-a4796dd0b565")
+	)
+	(polyline
+		(pts
+			(xy 74.295 86.36) (xy 74.93 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdec0052-53d1-4e55-b28e-98b751050ae1")
+	)
+	(polyline
+		(pts
+			(xy 74.295 85.09) (xy 74.93 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfbb1918-75a8-4d4e-b2a2-e8c4cd013d75")
 	)
 	(wire
 		(pts
@@ -3203,6 +3392,36 @@
 		)
 		(uuid "dea4ba73-426d-4c46-8470-cedf6b2001e2")
 	)
+	(polyline
+		(pts
+			(xy 45.085 85.09) (xy 53.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e06c4112-fc51-4ac5-a6ca-398fb2ad334d")
+	)
+	(polyline
+		(pts
+			(xy 42.545 64.135) (xy 43.18 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3cdbd09-19fa-4350-8d2d-ff1a24c6593e")
+	)
+	(polyline
+		(pts
+			(xy 65.405 64.135) (xy 65.405 78.105)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "e42196e8-636a-453d-86a2-61d934022a42")
+	)
 	(wire
 		(pts
 			(xy 114.3 50.8) (xy 114.3 53.34)
@@ -3253,6 +3472,16 @@
 		)
 		(uuid "f0503bda-39a6-4846-b56a-3f7ee578e3d7")
 	)
+	(polyline
+		(pts
+			(xy 42.291 78.105) (xy 53.721 78.105)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "f163194c-b3b3-40a7-963f-b548dfe6da13")
+	)
 	(wire
 		(pts
 			(xy 93.98 148.59) (xy 93.98 151.13)
@@ -3284,8 +3513,8 @@
 		(uuid "ffc30a34-cb43-4036-a0c0-66cff0cec36b")
 	)
 	(rectangle
-		(start 86.995 36.83)
-		(end 178.435 97.79)
+		(start 17.78 36.195)
+		(end 180.975 97.155)
 		(stroke
 			(width 0)
 			(type default)
@@ -3320,6 +3549,60 @@
 		)
 		(uuid "1b121a4d-4ec9-4b5c-b7eb-7902ce2d5013")
 	)
+	(text "POWER EN"
+		(exclude_from_sim no)
+		(at 31.75 78.232 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "46c61937-4c9f-40c3-83af-c719d21f960f")
+	)
+	(text "+5V"
+		(exclude_from_sim no)
+		(at 34.29 66.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "517b3417-6885-4f63-b94b-589f2729e473")
+	)
+	(text "0V"
+		(exclude_from_sim no)
+		(at 40.516 73.918 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6ee69a22-fee6-4bbb-97d6-0a565b164f7e")
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 40.513 68.961 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "73136c02-5cef-4cc2-a8f4-d4a35321fa99")
+	)
+	(text "t"
+		(exclude_from_sim no)
+		(at 73.787 87.503 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "73c59b56-ce52-4987-8f7a-59e094addf7f")
+	)
 	(text "POWER ON SWITCH "
 		(exclude_from_sim no)
 		(at 116.078 41.148 0)
@@ -3333,6 +3616,16 @@
 		)
 		(uuid "8e2b7756-5598-4a1b-a7b1-eecc744c0834")
 	)
+	(text "U"
+		(exclude_from_sim no)
+		(at 40.7726 64.0149 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9d799706-7179-4c80-ba63-c35ed543c1c1")
+	)
 	(text "POWER INDICATORS"
 		(exclude_from_sim no)
 		(at 60.96 119.634 0)
@@ -3345,6 +3638,26 @@
 			(justify left bottom)
 		)
 		(uuid "b656d981-655e-48e9-b95d-ce832c730a14")
+	)
+	(text "0V"
+		(exclude_from_sim no)
+		(at 40.386 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c18e7f79-3bcf-4042-b741-7ad1fc7f1910")
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 40.132 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d135b135-c25c-4d76-83a8-e8a2775f8a3e")
 	)
 	(hierarchical_label "POWER_EN"
 		(shape input)
