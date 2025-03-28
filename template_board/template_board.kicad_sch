@@ -99,6 +99,16 @@
 		)
 		(uuid "06c612db-1096-4c60-87bb-1067a6ef10ab")
 	)
+	(bus
+		(pts
+			(xy 119.38 82.55) (xy 130.81 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b0f1982-0222-4955-882e-59610f1e9a74")
+	)
 	(polyline
 		(pts
 			(xy 106.68 80.01) (xy 107.95 81.28)
@@ -169,6 +179,16 @@
 		)
 		(uuid "62984c0c-45e6-4fa9-9551-2f439aabcfce")
 	)
+	(bus
+		(pts
+			(xy 91.44 85.09) (xy 119.38 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66f5265b-d736-443f-8e9b-b2bf8e3c3d52")
+	)
 	(polyline
 		(pts
 			(xy 107.95 81.28) (xy 109.22 80.01)
@@ -231,13 +251,13 @@
 	)
 	(bus
 		(pts
-			(xy 91.44 82.55) (xy 130.81 82.55)
+			(xy 119.38 85.09) (xy 119.38 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dddeb1a9-ddd5-47d0-93d5-093ed75889e7")
+		(uuid "c4bc5d55-5cc8-4f70-9b86-afceb9936ed3")
 	)
 	(bus
 		(pts
@@ -340,16 +360,6 @@
 				(justify left)
 			)
 			(uuid "8042fb34-412c-4dda-8b83-5bbdeca74774")
-		)
-		(pin "USB1{USB}" input
-			(at 91.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "448101b0-1a58-481b-ac1e-0d4befbeee31")
 		)
 		(pin "USB2{USB}" input
 			(at 60.96 123.19 180)
@@ -501,6 +511,26 @@
 			)
 			(uuid "cd14ac01-cbb5-441b-946a-842efa86f4b0")
 		)
+		(pin "USB1{USB}" input
+			(at 91.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8fd81995-1a2e-415c-9944-a8f778ac2174")
+		)
+		(pin "GPIO[0..31]" input
+			(at 60.96 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2afb4812-a99f-4b90-af37-78e6ba63748d")
+		)
 		(instances
 			(project "template_board"
 				(path "/f131027f-631c-4099-b0ec-5f883860005f"
@@ -617,16 +647,6 @@
 				(justify left top)
 			)
 		)
-		(pin "BUS{USB}" input
-			(at 130.81 82.55 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8136a0de-f110-4c61-84aa-438e4dc30b24")
-		)
 		(pin "EXTUSB{USB}" output
 			(at 166.37 82.55 0)
 			(effects
@@ -636,6 +656,16 @@
 				(justify right)
 			)
 			(uuid "27546c51-9619-4445-97db-894ff43fb16c")
+		)
+		(pin "BUS{USB}" input
+			(at 130.81 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "23d80de2-8bd6-4a39-9719-fd9d16bd9ff9")
 		)
 		(instances
 			(project "template_board"
