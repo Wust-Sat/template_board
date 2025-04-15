@@ -6217,17 +6217,6 @@
 		)
 		(uuid "10715907-476a-4545-b6ec-e2a424e4dbb3")
 	)
-	(hierarchical_label "GPIO[0..31]"
-		(shape input)
-		(at 354.33 204.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2612c2cf-bd86-4b03-bd58-54eb87093c16")
-	)
 	(hierarchical_label "USB2{USB}"
 		(shape input)
 		(at 67.31 158.75 180)
@@ -6315,6 +6304,17 @@
 			(justify right)
 		)
 		(uuid "df6d5629-ea47-4c07-a8c0-26c516ec7b35")
+	)
+	(hierarchical_label "GPIO[0..31]"
+		(shape input)
+		(at 354.33 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e95ebf0a-b678-4dc9-aae4-691f560d303e")
 	)
 	(hierarchical_label "USB12{USB}"
 		(shape input)

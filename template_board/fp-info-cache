@@ -1,4 +1,4 @@
-24825288428363793
+236932188669871
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69573,13 +69573,6 @@ CONN-TH_4P-P5.08_DB129VG-5.08-4P-GN-S footprint C2981774
 4
 4
 PCM_JLCPCB
-CRYSTAL-SMD_4P-L2.5-W2.0-BL
-CRYSTAL-SMD_4P-L2.5-W2.0-BL footprint
-CRYSTAL-SMD_4P-L2.5-W2.0-BL footprint C2875244
-0
-4
-4
-PCM_JLCPCB
 CRYSTAL-SMD_4P-L3.2-W2.5-BL
 CRYSTAL-SMD_4P-L3.2-W2.5-BL footprint
 CRYSTAL-SMD_4P-L3.2-W2.5-BL footprint C9002
@@ -69629,13 +69622,6 @@ capacitor
 2
 2
 PCM_JLCPCB
-C_1812
-Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-PCM_JLCPCB
 C_CASE-A-3216-18(mm)
 Tantalum Capacitor SMD Kemet-A (3216-18 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
 capacitor tantalum
@@ -69657,23 +69643,9 @@ CAP-TH_BD10.0-P5.00-D0.6-FD-A footprint C3015599
 2
 2
 PCM_JLCPCB
-C_Plugin,P=7.5mm
-C, Disc series, Radial, pin pitch=7.50mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
-C Disc series Radial pin pitch 7.50mm  diameter 7.5mm width 5.0mm Capacitor
-0
-2
-2
-PCM_JLCPCB
 C_Plugin,P=10mm
 C, Disc series, Radial, pin pitch=10.00mm, , diameter*width=11*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
 C Disc series Radial pin pitch 10.00mm  diameter 11mm width 5.0mm Capacitor
-0
-2
-2
-PCM_JLCPCB
-C_Plugin,P=15mm
-CAP-TH_L26.5-W10.0-P22.50-D0.8 footprint
-CAP-TH_L26.5-W10.0-P22.50-D0.8 footprint C2991080
 0
 2
 2
@@ -69734,13 +69706,6 @@ LED
 2
 2
 PCM_JLCPCB
-D_DFN0603-2
-DFN0603-2L-BI footprint
-DFN0603-2L-BI footprint C2936988
-0
-2
-2
-PCM_JLCPCB
 D_DFN0603-2L
 DFN0603-2_L0.6-W0.3-P0.40-RD footprint
 DFN0603-2_L0.6-W0.3-P0.40-RD footprint C22395515
@@ -69793,6 +69758,13 @@ PCM_JLCPCB
 D_SMC
 Diode SMC (DO-214AB)
 Diode SMC (DO-214AB)
+0
+2
+2
+PCM_JLCPCB
+D_SMC(DO-214AB)
+SMC_L7.1-W6.2-LS8.1-R-RD footprint
+SMC_L7.1-W6.2-LS8.1-R-RD footprint C35722
 0
 2
 2
@@ -69874,41 +69846,6 @@ FC-135R_L3.2-W1.5 footprint C32346
 2
 2
 PCM_JLCPCB
-FILTER-SMD_4P-L9.5-W8.3_PSMCAQ1050-222P
-FILTER-SMD_4P-L9.5-W8.3_PSMCAQ1050-222P footprint
-FILTER-SMD_4P-L9.5-W8.3_PSMCAQ1050-222P footprint C2962896
-0
-4
-4
-PCM_JLCPCB
-FILTER-SMD_4P-L12.0-W10.8-TL
-FILTER-SMD_4P-L12.0-W10.8-TL footprint
-FILTER-SMD_4P-L12.0-W10.8-TL footprint C2839965
-0
-4
-4
-PCM_JLCPCB
-F_0603
-Fuse SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-fuse
-0
-2
-2
-PCM_JLCPCB
-HC-49S_L7.0-W4.0
-HC-49S_L7.0-W4.0 footprint
-HC-49S_L7.0-W4.0 footprint C2975359
-0
-2
-2
-PCM_JLCPCB
-HDR-TH_8P-P2.54-V-M
-HDR-TH_8P-P2.54-V-M footprint
-HDR-TH_8P-P2.54-V-M footprint C2829996
-0
-8
-8
-PCM_JLCPCB
 Hole, 3mm
 
 
@@ -69986,13 +69923,6 @@ inductor
 2
 2
 PCM_JLCPCB
-L_1008
-Inductor SMD 1008 (2520 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://ecsxtal.com/store/pdf/ECS-MPI2520-SMD-POWER-INDUCTOR.pdf), generated with kicad-footprint-generator
-inductor
-0
-2
-2
-PCM_JLCPCB
 L_1206
 Inductor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 inductor
@@ -70003,13 +69933,6 @@ PCM_JLCPCB
 L_SMD,4.5x4.1mm
 IND-SMD_L4.5-W4.1_TMPA0402SP footprint
 IND-SMD_L4.5-W4.1_TMPA0402SP footprint C2875615
-0
-2
-2
-PCM_JLCPCB
-L_SMD,4.5x4x3.2mm
-IND-SMD_L4.5-W4.0_CD43 footprint
-IND-SMD_L4.5-W4.0_CD43 footprint C2880035
 0
 2
 2
@@ -70070,13 +69993,6 @@ MouseBites, Mechanical, JLCPCB, 1.6mm
 0
 0
 PCM_JLCPCB
-OPTO-SMD-4_L4.6-W6.5-P2.54-LS10.3-TL
-OPTO-SMD-4_L4.6-W6.5-P2.54-LS10.3-TL footprint
-OPTO-SMD-4_L4.6-W6.5-P2.54-LS10.3-TL footprint C106900
-0
-4
-4
-PCM_JLCPCB
 OSC-SMD_4P-L3.2-W2.5-BL
 OSC-SMD_4P-L3.2-W2.5-BL footprint
 OSC-SMD_4P-L3.2-W2.5-BL footprint C9006
@@ -70090,13 +70006,6 @@ OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI footprint C9010
 0
 4
 4
-PCM_JLCPCB
-PDIP-8_L9.6-W6.4-P2.54-LS7.9-BL-1
-PDIP-8_L9.6-W6.4-P2.54-LS7.9-BL-1 footprint
-PDIP-8_L9.6-W6.4-P2.54-LS7.9-BL-1 footprint C2987356
-0
-8
-8
 PCM_JLCPCB
 PG-TO-263-5_L10.2-W8.7-P1.70-LS14.4-BR
 PG-TO-263-5_L10.2-W8.7-P1.70-LS14.4-BR footprint
@@ -70175,30 +70084,9 @@ SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR footprint C7420322
 3
 3
 PCM_JLCPCB
-RV_1210
-R1210 footprint
-R1210 footprint C2935551
-0
-2
-2
-PCM_JLCPCB
 RV_Plugin,P=5mm
 RES-TH_L8.0-W5.4-P5.00-D0.6 footprint
 RES-TH_L8.0-W5.4-P5.00-D0.6 footprint C2919238
-0
-2
-2
-PCM_JLCPCB
-RV_Plugin,P=7.5mm
-RES-TH_L15.0-W6.4-P7.50-D0.8 footprint
-RES-TH_L15.0-W6.4-P7.50-D0.8 footprint C2919311
-0
-2
-2
-PCM_JLCPCB
-RV_Plugin,P=8mm
-RES-TH_L15.0-W6.6-P8.00-D0.8 footprint
-RES-TH_L15.0-W6.6-P8.00-D0.8 footprint C2919344
 0
 2
 2
@@ -70245,13 +70133,6 @@ resistor
 2
 2
 PCM_JLCPCB
-R_1812
-Resistor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
-resistor
-0
-2
-2
-PCM_JLCPCB
 R_2010
 Resistor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 resistor
@@ -70265,13 +70146,6 @@ resistor
 0
 2
 2
-PCM_JLCPCB
-SMD-8_L9.8-W6.6-P2.54-LS10.3-BL
-SMD-8_L9.8-W6.6-P2.54-LS10.3-BL footprint
-SMD-8_L9.8-W6.6-P2.54-LS10.3-BL footprint C110020
-0
-8
-8
 PCM_JLCPCB
 SOIC-8_3.9x4.9mm_P1.27mm
 SOP, 8 Pin (http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf#page=79), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -70328,13 +70202,6 @@ SOIC-20_L13.0-W7.6-P1.27-LS10.3-BL footprint C5625
 0
 20
 20
-PCM_JLCPCB
-SOP-4_L4.4-W2.8-P1.27-LS7.0-TL
-SOP-4_L4.4-W2.8-P1.27-LS7.0-TL footprint
-SOP-4_L4.4-W2.8-P1.27-LS7.0-TL footprint C145341
-0
-4
-4
 PCM_JLCPCB
 SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR
 SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR footprint
@@ -70507,13 +70374,6 @@ PCM_JLCPCB
 SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2
 SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint
 SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint C318884
-0
-4
-4
-PCM_JLCPCB
-SW-SMD_218-2LPSTRF
-SW-SMD_218-2LPSTRF footprint
-SW-SMD_218-2LPSTRF footprint C2961921
 0
 4
 4
@@ -94468,6 +94328,167 @@ TerminalBlock_Altech
 Altech_AK300_1x24_P5.00mm_45-Degree
 Altech AK300 serie terminal block (Script generated with StandardBox.py) (http://www.altechcorp.com/PDFS/PCBMETRC.PDF)
 Altech AK300 serie connector
+0
+24
+24
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-02, 2 pins, pitch 5.08mm, size 10.8x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-02 pitch 5.08mm size 10.8x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+2
+2
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-03_1x03_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-03, 3 pins, pitch 5.08mm, size 15.8x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-03 pitch 5.08mm size 15.8x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+3
+3
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-04_1x04_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-04, 4 pins, pitch 5.08mm, size 20.9x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-04 pitch 5.08mm size 20.9x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+4
+4
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-05_1x05_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-05, 5 pins, pitch 5.08mm, size 26x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-05 pitch 5.08mm size 26x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+5
+5
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-06_1x06_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-06, 6 pins, pitch 5.08mm, size 31.1x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-06 pitch 5.08mm size 31.1x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+6
+6
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-07_1x07_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-07, 7 pins, pitch 5.08mm, size 36.2x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-07 pitch 5.08mm size 36.2x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+7
+7
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-08_1x08_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-08, 8 pins, pitch 5.08mm, size 41.2x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-08 pitch 5.08mm size 41.2x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+8
+8
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-09_1x09_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-09, 9 pins, pitch 5.08mm, size 46.3x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-09 pitch 5.08mm size 46.3x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+9
+9
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-10_1x10_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-10, 10 pins, pitch 5.08mm, size 51.4x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-10 pitch 5.08mm size 51.4x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+10
+10
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-11_1x11_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-11, 11 pins, pitch 5.08mm, size 56.5x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-11 pitch 5.08mm size 56.5x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+11
+11
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-12_1x12_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-12, 12 pins, pitch 5.08mm, size 61.6x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-12 pitch 5.08mm size 61.6x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+12
+12
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-13_1x13_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-13, 13 pins, pitch 5.08mm, size 66.6x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-13 pitch 5.08mm size 66.6x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+13
+13
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-14_1x14_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-14, 14 pins, pitch 5.08mm, size 71.7x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-14 pitch 5.08mm size 71.7x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+14
+14
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-15_1x15_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-15, 15 pins, pitch 5.08mm, size 76.8x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-15 pitch 5.08mm size 76.8x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+15
+15
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-16_1x16_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-16, 16 pins, pitch 5.08mm, size 81.9x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-16 pitch 5.08mm size 81.9x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+16
+16
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-17_1x17_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-17, 17 pins, pitch 5.08mm, size 87x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-17 pitch 5.08mm size 87x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+17
+17
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-18_1x18_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-18, 18 pins, pitch 5.08mm, size 92x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-18 pitch 5.08mm size 92x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+18
+18
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-19_1x19_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-19, 19 pins, pitch 5.08mm, size 97.1x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-19 pitch 5.08mm size 97.1x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+19
+19
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-20_1x20_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-20, 20 pins, pitch 5.08mm, size 102x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-20 pitch 5.08mm size 102x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+20
+20
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-21_1x21_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-21, 21 pins, pitch 5.08mm, size 107x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-21 pitch 5.08mm size 107x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+21
+21
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-22_1x22_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-22, 22 pins, pitch 5.08mm, size 112x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-22 pitch 5.08mm size 112x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+22
+22
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-23_1x23_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-23, 23 pins, pitch 5.08mm, size 117x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-23 pitch 5.08mm size 117x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+23
+23
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-24_1x24_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-24, 24 pins, pitch 5.08mm, size 123x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-24 pitch 5.08mm size 123x10.2mm^2 drill 1.6mm pad 2.4mm
 0
 24
 24

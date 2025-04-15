@@ -85,19 +85,15 @@
 		(at 60.96 50.8)
 		(uuid "d1881164-0b47-4dbb-8293-62ae3f45c02d")
 	)
-	(no_connect
-		(at 91.44 50.8)
-		(uuid "fedf4675-9e5a-45e9-b968-2a97fa63dd6a")
-	)
 	(bus
 		(pts
-			(xy 166.37 106.68) (xy 187.96 106.68)
+			(xy 166.37 49.53) (xy 187.96 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06c612db-1096-4c60-87bb-1067a6ef10ab")
+		(uuid "07f5afd3-ec3c-4137-a8eb-9c12d0992df5")
 	)
 	(bus
 		(pts
@@ -119,6 +115,16 @@
 		)
 		(uuid "0bddf47e-998c-4e3a-a8d4-ab01cb7064cf")
 	)
+	(bus
+		(pts
+			(xy 166.37 33.02) (xy 187.96 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3976b78b-7cc2-45ae-bf7e-bf25851598b5")
+	)
 	(wire
 		(pts
 			(xy 121.92 106.68) (xy 130.81 106.68)
@@ -128,26 +134,6 @@
 			(type default)
 		)
 		(uuid "48010a1d-8f44-4aab-ae5a-b97a9908ec70")
-	)
-	(bus
-		(pts
-			(xy 166.37 66.04) (xy 187.96 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bb901a6-bca1-47ca-8311-bbb4e42eb680")
-	)
-	(bus
-		(pts
-			(xy 166.37 52.07) (xy 187.96 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51b381c9-ef90-4297-ba42-bfce64f93fbf")
 	)
 	(bus
 		(pts
@@ -171,16 +157,6 @@
 	)
 	(bus
 		(pts
-			(xy 166.37 49.53) (xy 187.96 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62984c0c-45e6-4fa9-9551-2f439aabcfce")
-	)
-	(bus
-		(pts
 			(xy 91.44 85.09) (xy 119.38 85.09)
 		)
 		(stroke
@@ -199,6 +175,46 @@
 		)
 		(uuid "6e702a09-2185-4270-b74c-3ec0a9b45b41")
 	)
+	(wire
+		(pts
+			(xy 166.37 35.56) (xy 187.96 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d32a5a-414a-4cc0-a037-4eb2de31c48a")
+	)
+	(bus
+		(pts
+			(xy 166.37 106.68) (xy 187.96 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76297e7e-71a8-45ff-bc90-3a0070527048")
+	)
+	(bus
+		(pts
+			(xy 166.37 66.04) (xy 187.96 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "816b5dcf-1f99-4e72-a474-271ca3746175")
+	)
+	(bus
+		(pts
+			(xy 166.37 96.52) (xy 187.96 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88df6062-9a49-40f4-96af-e647f241ccdf")
+	)
 	(polyline
 		(pts
 			(xy 107.95 77.47) (xy 107.95 81.28)
@@ -208,6 +224,16 @@
 			(type default)
 		)
 		(uuid "9212f88c-a973-4108-b89d-a23a4b2b1f59")
+	)
+	(bus
+		(pts
+			(xy 166.37 30.48) (xy 187.96 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a279a5-9000-4d4d-a174-4142be11887f")
 	)
 	(bus
 		(pts
@@ -251,6 +277,16 @@
 	)
 	(bus
 		(pts
+			(xy 166.37 52.07) (xy 187.96 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba0be3a6-4351-4aca-840c-eb40e5fd0892")
+	)
+	(bus
+		(pts
 			(xy 119.38 85.09) (xy 119.38 82.55)
 		)
 		(stroke
@@ -261,13 +297,13 @@
 	)
 	(bus
 		(pts
-			(xy 166.37 96.52) (xy 187.96 96.52)
+			(xy 91.44 43.18) (xy 187.96 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e652be65-25fa-4710-b5d0-5e7c8fd477f3")
+		(uuid "c59cb661-4e02-4919-a92f-634d1a9a3bed")
 	)
 	(bus
 		(pts
@@ -501,16 +537,6 @@
 			)
 			(uuid "30344d9b-7a14-4013-b7ac-032d7f9de621")
 		)
-		(pin "GPIO[0..35]" input
-			(at 91.44 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "cd14ac01-cbb5-441b-946a-842efa86f4b0")
-		)
 		(pin "USB1{USB}" input
 			(at 91.44 85.09 0)
 			(effects
@@ -522,12 +548,12 @@
 			(uuid "8fd81995-1a2e-415c-9944-a8f778ac2174")
 		)
 		(pin "GPIO[0..31]" input
-			(at 60.96 85.09 180)
+			(at 91.44 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "2afb4812-a99f-4b90-af37-78e6ba63748d")
 		)
@@ -724,7 +750,7 @@
 		)
 	)
 	(sheet
-		(at 187.96 39.37)
+		(at 187.96 27.94)
 		(size 36.83 104.14)
 		(fields_autoplaced yes)
 		(stroke
@@ -736,7 +762,7 @@
 		)
 		(uuid "a4b9441c-60f3-49e8-82a9-f2ebbfa51587")
 		(property "Sheetname" "MCU"
-			(at 187.96 38.6584 0)
+			(at 187.96 27.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -745,7 +771,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 187.96 144.0946 0)
+			(at 187.96 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -803,10 +829,118 @@
 			)
 			(uuid "22393510-23af-4f5f-bdab-c9a59ee0fecf")
 		)
+		(pin "LORA_DIO[0..5]" bidirectional
+			(at 187.96 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5e5ba0cd-5cfd-4f64-bd03-bb74cb18f707")
+		)
+		(pin "~{LORA_RESET}" input
+			(at 187.96 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f0b134a7-46fc-40a4-8da1-aaf99cf2c8f0")
+		)
+		(pin "LORA{SPI}" bidirectional
+			(at 187.96 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4b00166a-bfdc-4f31-b80a-9db8ad75eb4f")
+		)
+		(pin "GPIO[0..31]" input
+			(at 187.96 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "09643590-a5e5-4464-9261-c46882977c04")
+		)
 		(instances
 			(project "template_board"
 				(path "/f131027f-631c-4099-b0ec-5f883860005f"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 27.94)
+		(size 36.83 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a93d2a9d-f0bf-4a42-a6e3-99a3548c748d")
+		(property "Sheetname" "LORA"
+			(at 129.54 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lora.kicad_sch"
+			(at 129.54 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LORA_DIO[0..5]" bidirectional
+			(at 166.37 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5f056f05-0836-4a36-aa27-b0cf4add2b95")
+		)
+		(pin "~{LORA_RESET}" input
+			(at 166.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b51a7409-a207-4c14-8a5a-0d9dd4ae4ad3")
+		)
+		(pin "LORA{SPI}" bidirectional
+			(at 166.37 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "59e4ed26-8380-44f0-b8cb-04d42c496c44")
+		)
+		(instances
+			(project "template_board"
+				(path "/f131027f-631c-4099-b0ec-5f883860005f"
+					(page "9")
 				)
 			)
 		)
