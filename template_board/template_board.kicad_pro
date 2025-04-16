@@ -63,7 +63,14 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|29965000|21284162|1ac9e76f-5925-433a-8072-0a6a868641dc|484e2816-d18d-4b3b-8649-71e5da367df4",
+        "courtyards_overlap|97855000|25700000|1ac9e76f-5925-433a-8072-0a6a868641dc|9a7c8cd0-35cc-446d-ac67-94b60831ff08",
+        "hole_clearance|100650000|78970000|3d67ee0d-79a4-46ee-90f4-f839fe46311d|050475b6-11d5-4b31-8996-3cfe50892638",
+        "hole_clearance|100650000|78970000|3d67ee0d-79a4-46ee-90f4-f839fe46311d|98a6fe73-7d51-4f7f-b11c-40712b1481f6",
+        "hole_clearance|100650000|85070000|455790d5-7e8f-42f9-95a8-040494c01601|692effb8-61f0-449b-9b8a-f46545abab4c",
+        "hole_clearance|100650000|85070000|455790d5-7e8f-42f9-95a8-040494c01601|ced43d45-cb86-4af4-a2a4-6d65da4587ea"
+      ],
       "meta": {
         "version": 2
       },
@@ -528,6 +535,23 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.48,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "RF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
@@ -565,6 +589,10 @@
       {
         "netclass": "PWR",
         "pattern": "GND"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "*RF"
       }
     ]
   },

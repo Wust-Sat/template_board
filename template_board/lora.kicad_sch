@@ -1916,6 +1916,16 @@
 		)
 		(uuid "88a0fe90-e610-406f-85a7-8f0918d732a1")
 	)
+	(label "RF"
+		(at 132.08 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a82d162-7552-4d90-84f0-052b854327b1")
+	)
 	(label "LORA.MISO"
 		(at 85.09 78.74 0)
 		(effects
