@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "f131027f-631c-4099-b0ec-5f883860005f")
 	(paper "A4")
 	(title_block
@@ -28,6 +28,50 @@
 	)
 	(bus_alias "USB"
 		(members "D+" "D-")
+	)
+	(text_box "REMBER TO PICK CORRECT USB FOR THE BOARD"
+		(exclude_from_sim no)
+		(at 92.71 72.39 0)
+		(size 34.29 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "cc465d62-8ef8-4ad7-a707-eb98086b24be")
+	)
+	(text_box "REMBER \nTO \nPICK \nCORRECT \nUSB \nFOR \nTHE BOARD"
+		(exclude_from_sim no)
+		(at 45.085 94.615 0)
+		(size 30.48 30.48)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "de25eaa3-4cb6-41d4-a489-e28e374916f0")
 	)
 	(no_connect
 		(at 60.96 97.79)
@@ -315,51 +359,13 @@
 		)
 		(uuid "f07ae0be-3ba6-4641-b0bf-45e91d460e01")
 	)
-	(text_box "REMBER TO PICK CORRECT USB FOR THE BOARD"
-		(exclude_from_sim no)
-		(at 92.71 72.39 0)
-		(size 34.29 5.08)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "cc465d62-8ef8-4ad7-a707-eb98086b24be")
-	)
-	(text_box "REMBER \nTO \nPICK \nCORRECT \nUSB \nFOR \nTHE BOARD"
-		(exclude_from_sim no)
-		(at 45.085 94.615 0)
-		(size 30.48 30.48)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "de25eaa3-4cb6-41d4-a489-e28e374916f0")
-	)
 	(sheet
 		(at 60.96 40.64)
 		(size 30.48 85.09)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -389,173 +395,173 @@
 		)
 		(pin "USB3{USB}" input
 			(at 60.96 120.65 180)
+			(uuid "8042fb34-412c-4dda-8b83-5bbdeca74774")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8042fb34-412c-4dda-8b83-5bbdeca74774")
 		)
 		(pin "USB2{USB}" input
 			(at 60.96 123.19 180)
+			(uuid "2dab9429-a21a-4b09-8b52-7afab1682516")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2dab9429-a21a-4b09-8b52-7afab1682516")
 		)
 		(pin "USB4{USB}" input
 			(at 60.96 118.11 180)
+			(uuid "ce09cbdd-41ed-4963-bc25-c69445a6a9de")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ce09cbdd-41ed-4963-bc25-c69445a6a9de")
 		)
 		(pin "USB8{USB}" input
 			(at 60.96 107.95 180)
+			(uuid "ff0dcf93-0020-4fc7-8351-24f8e6bd17e8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ff0dcf93-0020-4fc7-8351-24f8e6bd17e8")
 		)
 		(pin "USB9{USB}" input
 			(at 60.96 105.41 180)
+			(uuid "ce99ab40-286d-442a-93a9-13f5c6c58d34")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ce99ab40-286d-442a-93a9-13f5c6c58d34")
 		)
 		(pin "USB7{USB}" input
 			(at 60.96 110.49 180)
+			(uuid "bad7a89d-5a5d-4d14-ac8b-68f6bb9b8374")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bad7a89d-5a5d-4d14-ac8b-68f6bb9b8374")
 		)
 		(pin "USB6{USB}" input
 			(at 60.96 113.03 180)
+			(uuid "0f508d80-1b5a-4d38-b61a-1c7661679055")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0f508d80-1b5a-4d38-b61a-1c7661679055")
 		)
 		(pin "USB5{USB}" input
 			(at 60.96 115.57 180)
+			(uuid "08db4d41-8d8a-4912-9931-d3f3bdf2b6cb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "08db4d41-8d8a-4912-9931-d3f3bdf2b6cb")
 		)
 		(pin "USB10{USB}" input
 			(at 60.96 102.87 180)
+			(uuid "8160fe90-a870-464f-ab0c-e84114bb8376")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8160fe90-a870-464f-ab0c-e84114bb8376")
 		)
 		(pin "USB11{USB}" input
 			(at 60.96 100.33 180)
+			(uuid "41354fa9-e1ef-4708-8d77-6320e5173ccd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "41354fa9-e1ef-4708-8d77-6320e5173ccd")
 		)
 		(pin "USB12{USB}" input
 			(at 60.96 97.79 180)
+			(uuid "f95b316b-ad15-4207-829f-f80484959bb6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f95b316b-ad15-4207-829f-f80484959bb6")
 		)
 		(pin "CAN1{CAN}" bidirectional
 			(at 91.44 96.52 0)
+			(uuid "82d3b542-323a-49c0-a0e0-7813909d854c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "82d3b542-323a-49c0-a0e0-7813909d854c")
 		)
 		(pin "CAN3{CAN}" bidirectional
 			(at 60.96 53.34 180)
+			(uuid "d0a69976-7436-4485-b2bd-c6ee3f698e42")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d0a69976-7436-4485-b2bd-c6ee3f698e42")
 		)
 		(pin "CAN4{CAN}" bidirectional
 			(at 60.96 55.88 180)
+			(uuid "375c8ce8-37c6-4e8e-bc04-86232c8ddd82")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "375c8ce8-37c6-4e8e-bc04-86232c8ddd82")
 		)
 		(pin "CAN2{CAN}" bidirectional
 			(at 60.96 50.8 180)
+			(uuid "30344d9b-7a14-4013-b7ac-032d7f9de621")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "30344d9b-7a14-4013-b7ac-032d7f9de621")
 		)
 		(pin "USB1{USB}" input
 			(at 91.44 85.09 0)
+			(uuid "8fd81995-1a2e-415c-9944-a8f778ac2174")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8fd81995-1a2e-415c-9944-a8f778ac2174")
 		)
 		(pin "GPIO[0..31]" input
 			(at 91.44 43.18 0)
+			(uuid "2afb4812-a99f-4b90-af37-78e6ba63748d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2afb4812-a99f-4b90-af37-78e6ba63748d")
 		)
 		(instances
 			(project "template_board"
@@ -568,6 +574,10 @@
 	(sheet
 		(at 130.81 92.71)
 		(size 35.56 20.955)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -597,43 +607,43 @@
 		)
 		(pin "CAN{RX TX}" bidirectional
 			(at 166.37 96.52 0)
+			(uuid "e258eef5-6036-4e16-8c5c-0d3c5e06c4d2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e258eef5-6036-4e16-8c5c-0d3c5e06c4d2")
 		)
 		(pin "CAN{CAN}" bidirectional
 			(at 130.81 96.52 180)
+			(uuid "9d341ae8-f599-4aab-b3e4-6de9877bc00c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9d341ae8-f599-4aab-b3e4-6de9877bc00c")
 		)
 		(pin "POWER_EN" output
 			(at 130.81 106.68 180)
+			(uuid "f78466e6-44a4-4a6b-b6bb-7b5e9b40d965")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f78466e6-44a4-4a6b-b6bb-7b5e9b40d965")
 		)
 		(pin "CAN_TRANSIVER{SPI}" bidirectional
 			(at 166.37 106.68 0)
+			(uuid "f73887d8-5e07-418e-aafd-01ec0b55ded4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f73887d8-5e07-418e-aafd-01ec0b55ded4")
 		)
 		(instances
 			(project "template_board"
@@ -646,6 +656,10 @@
 	(sheet
 		(at 130.81 78.74)
 		(size 35.56 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -675,23 +689,23 @@
 		)
 		(pin "EXTUSB{USB}" output
 			(at 166.37 82.55 0)
+			(uuid "27546c51-9619-4445-97db-894ff43fb16c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "27546c51-9619-4445-97db-894ff43fb16c")
 		)
 		(pin "BUS{USB}" input
 			(at 130.81 82.55 180)
+			(uuid "23d80de2-8bd6-4a39-9719-fd9d16bd9ff9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "23d80de2-8bd6-4a39-9719-fd9d16bd9ff9")
 		)
 		(instances
 			(project "template_board"
@@ -704,6 +718,10 @@
 	(sheet
 		(at 107.315 101.473)
 		(size 14.605 12.192)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -733,13 +751,13 @@
 		)
 		(pin "POWER_EN" input
 			(at 121.92 106.68 0)
+			(uuid "4ed10725-78a1-40a8-b149-369631c49c67")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4ed10725-78a1-40a8-b149-369631c49c67")
 		)
 		(instances
 			(project "template_board"
@@ -752,6 +770,10 @@
 	(sheet
 		(at 187.96 27.94)
 		(size 36.83 104.14)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -781,93 +803,93 @@
 		)
 		(pin "CAN{RX TX}" input
 			(at 187.96 96.52 180)
+			(uuid "73ac92c6-8f2c-41ae-af2c-41ada6bf16a4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "73ac92c6-8f2c-41ae-af2c-41ada6bf16a4")
 		)
 		(pin "USB_MCU{USB}" input
 			(at 187.96 66.04 180)
+			(uuid "478845b1-0775-4c74-812a-07a997d0e96d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "478845b1-0775-4c74-812a-07a997d0e96d")
 		)
 		(pin "CAN_TRANSIVER{SPI}" bidirectional
 			(at 187.96 106.68 180)
+			(uuid "e7e970cf-3263-42ca-86ac-9b03677df522")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e7e970cf-3263-42ca-86ac-9b03677df522")
 		)
 		(pin "STLINK_UART{UART}" bidirectional
 			(at 187.96 52.07 180)
+			(uuid "79f733a9-9c4a-41eb-ad20-4337904094e1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "79f733a9-9c4a-41eb-ad20-4337904094e1")
 		)
 		(pin "SWD{SWD}" input
 			(at 187.96 49.53 180)
+			(uuid "22393510-23af-4f5f-bdab-c9a59ee0fecf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "22393510-23af-4f5f-bdab-c9a59ee0fecf")
 		)
 		(pin "LORA_DIO[0..5]" bidirectional
 			(at 187.96 30.48 180)
+			(uuid "5e5ba0cd-5cfd-4f64-bd03-bb74cb18f707")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5e5ba0cd-5cfd-4f64-bd03-bb74cb18f707")
 		)
 		(pin "~{LORA_RESET}" input
 			(at 187.96 35.56 180)
+			(uuid "f0b134a7-46fc-40a4-8da1-aaf99cf2c8f0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f0b134a7-46fc-40a4-8da1-aaf99cf2c8f0")
 		)
 		(pin "LORA{SPI}" bidirectional
 			(at 187.96 33.02 180)
+			(uuid "4b00166a-bfdc-4f31-b80a-9db8ad75eb4f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4b00166a-bfdc-4f31-b80a-9db8ad75eb4f")
 		)
 		(pin "GPIO[0..31]" input
 			(at 187.96 43.18 180)
+			(uuid "09643590-a5e5-4464-9261-c46882977c04")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "09643590-a5e5-4464-9261-c46882977c04")
 		)
 		(instances
 			(project "template_board"
@@ -880,6 +902,10 @@
 	(sheet
 		(at 129.54 27.94)
 		(size 36.83 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -909,33 +935,33 @@
 		)
 		(pin "LORA_DIO[0..5]" bidirectional
 			(at 166.37 30.48 0)
+			(uuid "5f056f05-0836-4a36-aa27-b0cf4add2b95")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5f056f05-0836-4a36-aa27-b0cf4add2b95")
 		)
 		(pin "~{LORA_RESET}" input
 			(at 166.37 35.56 0)
+			(uuid "b51a7409-a207-4c14-8a5a-0d9dd4ae4ad3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b51a7409-a207-4c14-8a5a-0d9dd4ae4ad3")
 		)
 		(pin "LORA{SPI}" bidirectional
 			(at 166.37 33.02 0)
+			(uuid "59e4ed26-8380-44f0-b8cb-04d42c496c44")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "59e4ed26-8380-44f0-b8cb-04d42c496c44")
 		)
 		(instances
 			(project "template_board"
@@ -948,6 +974,10 @@
 	(sheet
 		(at 129.54 46.99)
 		(size 36.83 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -977,33 +1007,33 @@
 		)
 		(pin "STLINK_UART{UART}" bidirectional
 			(at 166.37 52.07 0)
+			(uuid "e605fdad-54d3-4eb2-91b5-1f33cc384a42")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e605fdad-54d3-4eb2-91b5-1f33cc384a42")
 		)
 		(pin "SWD{SWD}" output
 			(at 166.37 49.53 0)
+			(uuid "a8277f51-a979-4302-bb01-ca0357cc1bd2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a8277f51-a979-4302-bb01-ca0357cc1bd2")
 		)
 		(pin "ST-LINK{USB}" input
 			(at 129.54 52.07 180)
+			(uuid "d0d6d03c-841e-45f5-beb0-dcb949ffa552")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d0d6d03c-841e-45f5-beb0-dcb949ffa552")
 		)
 		(instances
 			(project "template_board"
@@ -1016,6 +1046,10 @@
 	(sheet
 		(at 129.54 63.5)
 		(size 36.83 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1045,33 +1079,33 @@
 		)
 		(pin "USBIN1{USB}" input
 			(at 166.37 69.85 0)
+			(uuid "6afa7d38-c799-4e0d-aa07-dd8ea2ae6c2a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6afa7d38-c799-4e0d-aa07-dd8ea2ae6c2a")
 		)
 		(pin "USB_MCU{USB}" input
 			(at 166.37 66.04 0)
+			(uuid "e5ea3b50-2a80-414f-bc73-438ec69f8379")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e5ea3b50-2a80-414f-bc73-438ec69f8379")
 		)
 		(pin "USBOUT1{USB}" input
 			(at 129.54 67.31 180)
+			(uuid "2e41bd84-11f1-4a0d-a4e6-6b420d880cff")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2e41bd84-11f1-4a0d-a4e6-6b420d880cff")
 		)
 		(instances
 			(project "template_board"
@@ -1086,4 +1120,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
